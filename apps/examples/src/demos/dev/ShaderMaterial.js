@@ -3,7 +3,7 @@
 import React, { useState, useCallback, useMemo } from 'react'
 import * as THREE from 'three'
 import { vertexShader, fragmentShader } from '../../resources/shaders/XFadeShader'
-import { Canvas, useThree } from 'react-three-fiber'
+import { Canvas, useThree } from '@react-three/core'
 import { useSpring, a } from 'react-spring/three'
 import styled from 'styled-components'
 

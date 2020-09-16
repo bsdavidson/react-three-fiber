@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import React, { useEffect } from 'react'
-import { Canvas } from 'react-three-fiber'
+import { Canvas } from '@react-three/core'
 import { useSprings, a } from 'react-spring/three'
 
 const number = 35

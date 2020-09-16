@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 import React, { useState, useRef, useEffect, useCallback, useMemo } from 'react'
 import { apply as extendSpring, useSpring, a, interpolate } from 'react-spring/three'
-import { extend as extendThree, Canvas, useFrame, useThree } from 'react-three-fiber'
+import { extend as extendThree, Canvas, useFrame, useThree } from '@react-three/core'
 import styled from 'styled-components'
 import data from '../../resources/data'
 

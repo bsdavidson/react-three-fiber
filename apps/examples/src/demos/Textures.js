@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import React, { Suspense, useRef, useMemo } from 'react'
-import { Canvas, useLoader, useFrame } from 'react-three-fiber'
+import { Canvas, useLoader, useFrame } from '@react-three/core'
 import { RectAreaLightUniformsLib } from 'three/examples/jsm/lights/RectAreaLightUniformsLib'
 
 RectAreaLightUniformsLib.init()

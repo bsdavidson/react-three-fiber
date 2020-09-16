@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useRef } from 'react'
-import { Canvas } from 'react-three-fiber'
+import { Canvas } from '@react-three/core'
 import * as THREE from 'three'
 
 function Ball() {
@@ -58,7 +58,8 @@ export default function App() {
           gl.setClearColor('white')
           gl.toneMapping = THREE.ACESFilmicToneMapping
           gl.outputEncoding = THREE.sRGBEncoding
-        }}>
+        }}
+      >
         <ambientLight intensity={1.1} />
         <pointLight position={[100, 100, 100]} intensity={2.2} />
         <pointLight position={[-100, -100, -100]} intensity={5} color="red" />

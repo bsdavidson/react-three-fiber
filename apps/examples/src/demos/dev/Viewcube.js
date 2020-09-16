@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import React, { useRef, useMemo } from 'react'
-import { Canvas, extend, useFrame, useThree, createPortal } from 'react-three-fiber'
+import { Canvas, extend, useFrame, useThree, createPortal } from '@react-three/core'
 import { useCamera } from 'drei'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 

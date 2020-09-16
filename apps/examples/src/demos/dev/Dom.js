@@ -1,6 +1,6 @@
 import React, { Suspense, createRef, useEffect, useRef } from 'react'
 import { Html } from 'drei'
-import { Canvas, useFrame } from 'react-three-fiber'
+import { Canvas, useFrame } from '@react-three/core'
 import usePromise from 'react-promise-suspense'
 
 /** The <Html /> component creates its own render-root in a useEffect

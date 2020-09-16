@@ -7,18 +7,6 @@ module.exports = (config, env) => {
   return override(
     addReactRefresh(),
     removeModuleScopePlugin(),
-    babelInclude([path.resolve('src'), path.resolve('../src')]),
-    addWebpackAlias({
-      'react-three-fiber': path.resolve('../src/targets/web'),
-      react: path.resolve('node_modules/react'),
-      'react-dom': path.resolve('node_modules/react-dom'),
-      scheduler: path.resolve('node_modules/scheduler'),
-      'react-scheduler': path.resolve('node_modules/react-scheduler'),
-      'prop-types': path.resolve('node_modules/prop-types'),
-      //three: path.resolve('node_modules/three'),
-      //three$: path.resolve('node_modules/three/src/Three'),
-      //three$: path.resolve('./resources/three.js'),
-      //'../../../build/three.module.js': path.resolve('./resources/three.js'),
-    })
+    babelInclude([path.resolve('src'), path.resolve('../src')])
   )(config, env)
 }

@@ -1,7 +1,7 @@
 import * as CANNON from 'cannon'
 import * as THREE from 'three'
 import React, { useRef, useEffect, useState, useContext } from 'react'
-import { Canvas, useFrame } from 'react-three-fiber'
+import { Canvas, useFrame } from '@react-three/core'
 
 // Cannon-world context provider
 const context = React.createContext()

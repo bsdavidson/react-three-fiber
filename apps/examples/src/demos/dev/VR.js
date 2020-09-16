@@ -2,7 +2,7 @@
 import * as THREE from 'three'
 import * as WEBVR from '!exports-loader?WEBVR!three/examples/js/vr/WebVR'
 import React, { useRef, useMemo } from 'react'
-import { Canvas, useFrame, useThree } from 'react-three-fiber'
+import { Canvas, useFrame, useThree } from '@react-three/core'
 
 function Stars() {
   let group = useRef()

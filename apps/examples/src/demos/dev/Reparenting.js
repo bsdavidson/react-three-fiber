@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { Canvas, useResource, createPortal } from 'react-three-fiber'
+import { Canvas, useResource, createPortal } from '@react-three/core'
 
 function Icosahedron() {
   const [active, set] = useState(false)

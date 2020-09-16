@@ -1,7 +1,7 @@
 import React, { useMemo, useRef } from 'react'
 import * as THREE from 'three'
 import * as meshline from 'threejs-meshline'
-import { extend, Canvas, useFrame, useThree } from 'react-three-fiber'
+import { extend, Canvas, useFrame, useThree } from '@react-three/core'
 
 extend(meshline)
 

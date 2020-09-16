@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import React, { useState, useRef, useEffect, useMemo } from 'react'
-import { Canvas, createPortal, extend, useFrame, useThree } from 'react-three-fiber'
+import { Canvas, createPortal, extend, useFrame, useThree } from '@react-three/core'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer'
 import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass'

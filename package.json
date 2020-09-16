@@ -23,6 +23,11 @@
     "type": "opencollective",
     "url": "https://opencollective.com/react-three-fiber"
   },
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "packages/*/dist"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -33,21 +38,35 @@
       "eslint --fix"
     ]
   },
-  "scripts": {},
+  "scripts": {
+    "postinstall": "yarn bootstrap",
+    "bootstrap": "lerna bootstrap",
+    "start:examples": "lerna run start --scope=@react-three/examples",
+    "lint": "eslint --fix **/*.{js,jsx,ts,tsx}",
+    "lint:ci": "eslint **/*.{js,jsx,ts,tsx}"
+  },
+  "dependencies": {
+    "react": "^17.0.0-rc.0",
+    "react-dom": "^17.0.0-rc.0",
+    "styled-components": "^5.1.1",
+    "three": "^0.120.1"
+  },
   "devDependencies": {
-    "eslint": "^7.5.0",
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "@typescript-eslint/parser": "^3.7.0",
+    "cross-env": "^7.0.2",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
     "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.3",
-    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.17.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint": "^7.5.0",
     "husky": "^4.2.5",
+    "lerna": "^3.22.1",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
-    "typescript": "^4.0.2",
-    "@typescript-eslint/eslint-plugin": "^3.7.0",
-    "@typescript-eslint/parser": "^3.7.0"
+    "typescript": "^4.0.2"
   }
 }

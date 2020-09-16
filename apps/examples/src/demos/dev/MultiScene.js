@@ -1,5 +1,5 @@
 import React, { useRef, useLayoutEffect } from 'react'
-import { Canvas, useFrame, useThree, useResource } from 'react-three-fiber'
+import { Canvas, useFrame, useThree, useResource } from '@react-three/core'
 
 function Content() {
   const { camera } = useThree()

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Canvas, useThree, useFrame } from 'react-three-fiber'
+import { Canvas, useThree, useFrame } from '@react-three/core'
 import { render } from '../../../../src/targets/css2d'
 
 function Labels() {

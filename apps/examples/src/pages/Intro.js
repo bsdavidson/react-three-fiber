@@ -52,7 +52,7 @@ export default function Intro() {
         <br />
         seven.
       </h1>*/}
-      <a href="https://github.com/drcmda/react-three-fiber" style={{ color: bright ? '#2c2d31' : 'white' }}>
+      <a href="https://github.com/pmdrs/react-three-fiber" style={{ color: bright ? '#2c2d31' : 'white' }}>
         Github
       </a>
     </Page>

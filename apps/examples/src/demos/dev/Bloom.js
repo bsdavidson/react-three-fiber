@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import React, { useState, useMemo, useEffect, useRef } from 'react'
-import { Canvas, useThree, useFrame } from 'react-three-fiber'
+import { Canvas, useThree, useFrame } from '@react-three/core'
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer'
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass'
 import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass'

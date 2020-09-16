@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import React, { Suspense, useRef, useMemo } from 'react'
-import { Canvas, useFrame, useLoader } from 'react-three-fiber'
+import { Canvas, useFrame, useLoader } from '@react-three/core'
 import suzanne from '../../resources/gltf/suzanne.blob'
 
 const dummy = new THREE.Object3D()

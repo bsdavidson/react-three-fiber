@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import React, { Suspense, useEffect, useRef, useState, useMemo } from 'react'
-import { Canvas, useLoader, useFrame, useUpdate } from 'react-three-fiber'
+import { Canvas, useLoader, useFrame, useUpdate } from '@react-three/core'
 
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import flamingo from '../resources/gltf/flamingo.glb'

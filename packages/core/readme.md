@@ -1,4 +1,4 @@
-<h1>@react-three/core</h1>
+# @react-three/core
 
 <a href="https://travis-ci.org/react-spring/react-three-fiber"><img src="https://travis-ci.org/react-spring/react-three-fiber.svg?branch=master" alt="Build Status"></a>
 <a href="https://badge.fury.io/js/react-three-fiber"><img src="https://badge.fury.io/js/react-three-fiber.svg" alt="npm version"></a>
@@ -8,7 +8,7 @@
 react-three-fiber is a React <a href="https://reactjs.org/docs/codebase-overview.html#renderers">renderer</a> for threejs on the web and react-native.
 
 ```bash
-npm install three react-three-fiber
+npm install three @react-three/core
 ```
 
 <p align="center">

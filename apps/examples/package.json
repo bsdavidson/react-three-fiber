@@ -1,28 +1,29 @@
 {
-  "name": "examples-cra",
+  "name": "@react-three/examples",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "test": "react-app-rewired test"
   },
   "dependencies": {
+    "@react-three/core": "5.0.0-beta.12",
     "@testing-library/jest-dom": "^5.11.0",
     "@testing-library/react": "^10.4.4",
     "@testing-library/user-event": "^12.0.11",
     "cannon": "^0.6.2",
     "drei": "^0.0.70",
-    "react": "^17.0.0-rc.0",
-    "react-dom": "^17.0.0-rc.0",
+    "react": "file:../../node_modules/react",
+    "react-dom": "file:../../node_modules/react-dom",
     "react-merge-refs": "^1.0.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-spring": "^8.0.27",
     "react-three-gui": "^0.1.5",
     "react-use-gesture": "^7.0.15",
-    "styled-components": "^5.1.1",
+    "styled-components": "file:../../node_modules/styled-components",
+    "three": "file:../../node_modules/three",
     "threejs-meshline": "^2.0.11",
     "zustand": "^2.2.3"
   },

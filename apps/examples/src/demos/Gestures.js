@@ -1,5 +1,5 @@
 import React from 'react'
-import { Canvas, useThree } from 'react-three-fiber'
+import { Canvas, useThree } from '@react-three/core'
 import { useDrag } from 'react-use-gesture'
 import { useSpring, a } from 'react-spring/three'
 

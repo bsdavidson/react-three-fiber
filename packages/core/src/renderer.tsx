@@ -2,6 +2,7 @@ import * as THREE from 'three'
 import React from 'react'
 // @ts-ignore
 import Reconciler from 'react-reconciler/cjs/react-reconciler.production.min'
+// @ts-ignore
 import { unstable_now as now, unstable_IdlePriority as idlePriority, unstable_runWithPriority as run } from 'scheduler'
 import { CanvasContext } from './canvas'
 

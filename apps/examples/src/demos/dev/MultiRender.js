@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
-import { Canvas, useFrame } from 'react-three-fiber'
+import { Canvas, useFrame } from '@react-three/core'
 
 const CanvasStyle = {
   width: '100%',

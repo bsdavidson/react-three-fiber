@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react'
 import { BoxBufferGeometry, MeshNormalMaterial } from 'three'
-import { Canvas, useFrame, useThree } from 'react-three-fiber'
+import { Canvas, useFrame, useThree } from '@react-three/core'
 import { Controls, useControl } from 'react-three-gui'
 import { HTML } from 'drei'
 import { unstable_LowPriority as low, unstable_runWithPriority as run } from 'scheduler'

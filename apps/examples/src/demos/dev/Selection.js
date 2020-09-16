@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import React, { useState } from 'react'
-import { Canvas } from 'react-three-fiber'
+import { Canvas } from '@react-three/core'
 
 function Sphere() {
   const [hovered, set] = useState(false)
