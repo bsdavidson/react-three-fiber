@@ -1,4 +1,4 @@
-<h1>react-three-fiber</h1>
+<h1>react-three</h1>
 
 <a href="https://travis-ci.org/react-spring/react-three-fiber"><img src="https://travis-ci.org/react-spring/react-three-fiber.svg?branch=master" alt="Build Status"></a>
 <a href="https://badge.fury.io/js/react-three-fiber"><img src="https://badge.fury.io/js/react-three-fiber.svg" alt="npm version"></a>

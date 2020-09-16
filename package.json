@@ -1,5 +1,5 @@
 {
-  "name": "react-three-fiber",
+  "name": "@react-three/core",
   "private": true,
   "version": "5.0.0-beta.12",
   "description": "A React renderer for Three.js (web and react-native)",
@@ -13,12 +13,12 @@
   "author": "Paul Henschel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/drcmda/react-three-fiber/issues"
+    "url": "https://github.com/pmndrs/react-three/issues"
   },
-  "homepage": "https://github.com/drcmda/react-three-fiber#readme",
+  "homepage": "https://github.com/pmndrs/react-three#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drcmda/react-three-fiber.git"
+    "url": "git+https://github.com/pmndrs/react-three.git"
   },
   "collective": {
     "type": "opencollective",
